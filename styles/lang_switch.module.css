@@ -1,0 +1,18 @@
+.active {
+    color : white;
+    background-color : dodgerblue
+}
+.box {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    border : 1px solid black;
+    width: fit-content;
+    margin: 1rem auto;
+} 
+
+.langAcronym{
+    font-size: 25px;
+    margin: 0 10px;
+
+}
