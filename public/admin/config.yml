@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: StitiFatah/netlify-cms-next-blog
   branch: master # Branch to update (optional; defaults to master)
+  base_url: "https://netlifycms.archeroe.xyz"
+  auth_endpoint: "api/auth"
 media_folder: public/img
 public_folder: img
 collections:
